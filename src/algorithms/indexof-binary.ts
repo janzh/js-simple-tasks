@@ -1,4 +1,4 @@
-export const indexOfWithBinarySearch = (sortedArray: number[], element: number) => {
+export const indexOfWithBinarySearch = (sortedArray: number[] | string[], element: number | string) => {
     const array = [...sortedArray];
 
     let startIndex = 0;
